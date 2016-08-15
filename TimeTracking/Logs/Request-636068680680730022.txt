@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<TimeActivity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.intuit.com/finance/v3">
+  <NameOf>Employee</NameOf>
+  <EmployeeRef>60</EmployeeRef>
+  <CustomerRef>62</CustomerRef>
+  <ItemRef>20</ItemRef>
+  <BillableStatus>NotBillable</BillableStatus>
+  <Taxable>false</Taxable>
+  <HourlyRate>0</HourlyRate>
+  <Hours>10</Hours>
+  <Minutes>0</Minutes>
+  <Description>Test 1</Description>
+</TimeActivity>

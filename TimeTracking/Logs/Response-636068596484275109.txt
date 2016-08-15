@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IntuitResponse time="2016-08-15T12:07:31.166-07:00" xmlns="http://schema.intuit.com/finance/v3">
+    <Fault type="AUTHENTICATION">
+        <Error code="3200">
+            <Message>message=ApplicationAuthenticationFailed; errorCode=003200; statusCode=401</Message>
+            <Detail>SignatureBaseString: POST&amp;https%3A%2F%2Fsandbox-quickbooks.api.intuit.com%2Fv3%2Fcompany%2F123145732939602%2Fquery&amp;oauth_consumer_key%3DqyprdxRKTxEzL0XjKdceXnuSNZnaY1%26oauth_nonce%3Dbd4f0c7c-2920-4a04-afeb-e978fb01e9cc%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1471288047%26oauth_token%3DqyprdJr6LQbbtims23LBTwGjMrL3um7egyBk5pjA3Fu0sRN5%26oauth_version%3D1.0%26requestid%3D698a738b342e409f942a7d7febf5415b</Detail>
+        </Error>
+    </Fault>
+</IntuitResponse>

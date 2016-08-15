@@ -33,7 +33,7 @@ namespace TimeTracking.Models
         public List<Item> ItemList { get; set; }
         public Int64 Id { get; set; }
         public string QboId { get; set; }
-        public int CompanyId { get; set; }
+        public Int64 CompanyId { get; set; }
         private string viewInQbo = string.Empty;
         public string ViewInQbo { get; set; }
         public string DeepLink

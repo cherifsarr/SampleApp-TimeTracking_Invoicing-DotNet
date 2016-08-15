@@ -56,7 +56,7 @@ namespace TimeTracking.Controllers
             if (Request.QueryString.HasKeys())
             {
                 oAuthorizationdto.OauthVerifyer = Request.QueryString["oauth_verifier"].ToString();
-                oAuthorizationDB.realmid = Convert.ToInt32(Request.QueryString["realmId"].ToString());
+                oAuthorizationDB.realmid = Convert.ToInt64(Request.QueryString["realmId"].ToString());
                 oAuthorizationdto.Realmid = oAuthorizationDB.realmid;
                 oAuthorizationDB.datasource = Request.QueryString["dataSource"].ToString();
                 oAuthorizationdto.DataSource = oAuthorizationDB.datasource;

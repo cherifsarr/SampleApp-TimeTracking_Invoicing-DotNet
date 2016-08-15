@@ -34,7 +34,7 @@ namespace TimeTracking.Models.DTO
         public OAuthorizationdto oAuthTokens { get; set; }
 
         public DateTime Date { get; set; }
-        public int CompanyId { get; set; }
+        public Int64 CompanyId { get; set; }
 
         public long Id { get; set; }
 

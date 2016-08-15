@@ -1,0 +1,1 @@
+select * from Item where active = true and name = 'Machines'

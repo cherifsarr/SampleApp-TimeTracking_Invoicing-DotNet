@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.intuit.com/finance/v3">
+  <GivenName>John</GivenName>
+  <FamilyName>Nash</FamilyName>
+  <PrimaryPhone>
+    <FreeFormNumber>343-456-4567</FreeFormNumber>
+  </PrimaryPhone>
+  <PrimaryEmailAddr>
+    <Address>John@gmail.com</Address>
+  </PrimaryEmailAddr>
+</Employee>

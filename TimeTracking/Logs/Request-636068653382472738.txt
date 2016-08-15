@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.intuit.com/finance/v3">
+  <Name>Machines</Name>
+  <Description>Description</Description>
+  <Active>true</Active>
+  <Taxable>false</Taxable>
+  <UnitPrice>100</UnitPrice>
+  <IncomeAccountRef name="Billable Expense Income">85</IncomeAccountRef>
+  <PurchaseCost>100</PurchaseCost>
+  <ExpenseAccountRef name="Advertising">7</ExpenseAccountRef>
+  <TrackQtyOnHand>false</TrackQtyOnHand>
+</Item>

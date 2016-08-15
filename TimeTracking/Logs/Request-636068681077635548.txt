@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.intuit.com/finance/v3">
+  <Line>
+    <Description>Test 1</Description>
+    <Amount>25</Amount>
+    <DetailType>SalesItemLineDetail</DetailType>
+    <SalesItemLineDetail>
+      <ItemRef>20</ItemRef>
+      <TaxCodeRef>NON</TaxCodeRef>
+    </SalesItemLineDetail>
+  </Line>
+  <Line>
+    <Amount>25</Amount>
+    <DetailType>SubTotalLineDetail</DetailType>
+    <SubTotalLineDetail />
+  </Line>
+  <TxnTaxDetail />
+  <CustomerRef>62</CustomerRef>
+  <PrintStatus>NeedToPrint</PrintStatus>
+  <EmailStatus>NotSet</EmailStatus>
+  <Balance>25</Balance>
+  <Deposit>0</Deposit>
+  <AllowIPNPayment>false</AllowIPNPayment>
+  <AllowOnlinePayment>false</AllowOnlinePayment>
+  <AllowOnlineCreditCardPayment>false</AllowOnlineCreditCardPayment>
+  <AllowOnlineACHPayment>false</AllowOnlineACHPayment>
+</Invoice>

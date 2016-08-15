@@ -73,7 +73,7 @@ namespace TimeTracking.Models
             }
         }
         public string OauthVerifyer { get; set; }
-        public int Realmid { get; set; }
+        public Int64 Realmid { get; set; }
         public string DataSource { get; set; }
         public string AccessToken { get; set; }
         public string AccessTokenSecret { get; set; }
@@ -112,7 +112,7 @@ namespace TimeTracking.Models
 
         [Key]
         public int Id { get; set; }
-        public int realmid { get; set; }
+        public Int64 realmid { get; set; }
         public string access_token { get; set; }
         public string access_secret { get; set; }
         public string datasource { get; set; }

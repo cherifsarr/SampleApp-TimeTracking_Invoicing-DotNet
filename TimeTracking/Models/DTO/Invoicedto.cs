@@ -18,7 +18,7 @@ namespace TimeTracking.Models.DTO
         public OAuthorizationdto oAuthTokens { get; set; }
         public string CustomerId { get; set; }
         public DateTime TxnDate { get; set; }
-        public int CompanyId { get; set; }
+        public Int64 CompanyId { get; set; }
         public Invoice Invoice { get; set; }
         public List<Invoice> InvoiceList { get; set; }
         public long Id { get; set; }
